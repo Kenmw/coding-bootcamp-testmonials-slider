@@ -1,0 +1,132 @@
+
+body{
+  text-align: center;
+  color:hsl(240, 38%, 20%);
+  font-size: 18px;
+  font-family: 'inter';
+  font-weight:300;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  display: block;
+  font-size: 16px;
+  padding: 0 10%;
+  margin: 0;
+}
+h3{
+  color:hsl(240, 18%, 77%);
+  font-weight: 500;
+
+}
+.background-img{
+  position: relative;
+}
+.background-img img{
+  height:320px;
+  width:320px;
+}
+.hero{
+  display: none;
+}
+.hero-img{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top:9.85%;
+  left:13%;
+}
+.hero-img img{
+  height:260px;
+  width:auto;
+  border-radius: 5px;
+}
+.hero-text{
+  position: absolute;
+  margin: 80% 8% 0;
+}
+.control-img{
+  background-color:#fff;
+  height:10px;
+  width:60px;
+  padding: 11px 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  top:93%;
+  left:auto;
+  position: absolute;
+  box-shadow: -1px 1px 20px 6px #ccc;
+}
+.control-img img{
+  position: relative;
+  bottom:5px;
+  height: 20px;
+  width: auto;
+}
+.hero-text img{
+  position: relative;
+  height:50px;
+  width:auto;
+  top:40px;
+}
+.curve img{
+  position: absolute;
+  height: 90px;
+  left:0;
+  bottom:0;
+}
+.attribution{
+  font-size: 11px;
+     position: absolute;
+     bottom:0;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+@media screen and (min-width:1024px) {
+  body{font-size: 32px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    display: inline;
+    font-size: 20px;
+    padding: 0;
+  }
+.background-img{
+  position: absolute;
+  left:46%;
+  top:10%;
+}
+.background-img img{
+  height: auto;
+  width: auto;
+}
+.hero-img{
+  top:10%;
+  left:10%;
+}
+.hero-text{
+right:44%;
+text-align: left;
+margin:0 0 0 12%;
+top:20%;
+}
+.hero-text img{
+  top:72px;
+  left:100px;
+  height: auto;
+}
+.control-img{
+  height:35px;
+  width:95px;
+  left: 13%;
+  top:95%;
+}
+.curve img{
+  height: auto;
+}
+
+}
